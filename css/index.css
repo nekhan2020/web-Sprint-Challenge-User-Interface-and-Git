@@ -134,8 +134,9 @@ table {
 
 html,
 body {
-  height: 100%;
+  width: 800px;
   font-family: "Roboto", sans-serif;
+  margin: 0 auto;
 }
 
 h1,
@@ -152,7 +153,7 @@ p {
   line-height: 1.4;
 }
 
-.aboutContainer{
+.aboutContainer {
   width: 80vw;
   margin: 0 auto;
 }

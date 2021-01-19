@@ -36,13 +36,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic text is a way to label the boxes of the html code we are developing in order for us as developers to be able to discern and organize through it as well as for screen readers and search engines - allowing them to understand key elements/areas/headings of our website.
+
 2. Name two big differences between `display: block;` and `display: inline;`.
+
+   A block level element is a "bully" forcing everything else to be pushed to a new line by forcing a line break.
+   Inline does not force line breaks and only takes up the space it needs for its content, while a block level element takes the full width
 
 3. What are the 4 areas of the box model?
 
+   Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: `align-items: center`?
 
+The cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+GIt allows multiple developers to work on the same project in different areas and collaborate along with if there's any bugs that appear in the code having the ability to revert back to an older version. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
@@ -89,7 +100,7 @@ Your finished project must include all of the following requirements:
 <!-- - [ ] Copy and paste your home page navigation and header into the about page -->
 <!-- - [ ] Update the header image with the about page image -->
 <!-- - [ ] Link the `Home` navigation item back to the `index.html` page. -->
-- [ ] Build the rest of the about page layout to match the design
+<!-- - [ ] Build the rest of the about page layout to match the design -->
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

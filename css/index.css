@@ -152,8 +152,8 @@ p {
   line-height: 1.4;
 }
 
-.container {
-  width: 800px;
+.aboutContainer{
+  width: 80vw;
   margin: 0 auto;
 }
 
@@ -257,6 +257,7 @@ footer nav a {
 /* jumbo image edits */
 .jumbo {
   margin: 4% 0;
+  width: 100%;
 }
 
 /* box coloring styling */
@@ -289,37 +290,4 @@ footer nav a {
 }
 #box10 {
   background: dodgerblue;
-}
-
-/* About Page Styles */
-
-.navcontainer {
-  margin-top: 2%;
-}
-
-/* about section styles */
-.about {
-  padding: 0 25px;
-  padding-bottom: 3%;
-  border-bottom: black 1px dashed;
-}
-.about p {
-  list-style: height 1.2em;
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.mid {
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
-}
-/* strategy section */
-.strategy img {
-  border: 1px red solid;
-  width: 30%;
-}
-.work img {
-  border: 1px solid red;
-  width: 30%;
 }
